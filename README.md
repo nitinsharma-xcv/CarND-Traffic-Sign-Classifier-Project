@@ -151,23 +151,25 @@ Model gave a perfect prediction of 100% for all the images except `Stop` sign im
 1. Keep Right
 ![](web_images/web1_32x32.jpg)
 
-`      label                              sign name probability
-0     11  Right-of-way at the next intersection    100.00 %
-1     25                              Road work      0.00 %
-2     30                     Beware of ice/snow      0.00 %
-3     23                          Slippery road      0.00 %
-4     18                        General caution      0.00 %`
+|index| label			        |     sign name	        					| probability |
+|:----:|:---------------------:|:---------------------------------------------:|:--------:|
+|0     |11|  Right-of-way at the next intersection|    100.00 %|
+|1     |25|                              Road work|      0.00 %|
+|2     |30|                     Beware of ice/snow|      0.00 %|
+|3     |23|                          Slippery road|      0.00 %|
+|4     |18|                        General caution|      0.00 %|
 
 ---
 2. Ahead only
 ![](web_images/web2_32x32.jpg)
 
-`   label             sign name probability
-0     35            Ahead only    100.00 %
-1      0  Speed limit (20km/h)      0.00 %
-2      1  Speed limit (30km/h)      0.00 %
-3      2  Speed limit (50km/h)      0.00 %
-4      3  Speed limit (60km/h)      0.00 %`
+|index| label			        |     sign name	        					| probability |
+|:----:|:---------------------:|:---------------------------------------------:|:--------:|
+|0     |35|            Ahead only |   100.00 %|
+|1      |0 | Speed limit (20km/h) |     0.00 %|
+|2      |1  |Speed limit (30km/h) |     0.00 %|
+|3      |2  |Speed limit (50km/h)  |    0.00 %|
+|4      |3  |Speed limit (60km/h)  |    0.00 %|
 
 
 ---
@@ -175,12 +177,13 @@ Model gave a perfect prediction of 100% for all the images except `Stop` sign im
 3. Right-of-way at the next intersection
 ![](web_images/web3_32x32.jpg)
 
-`   label                              sign name probability
-0     11  Right-of-way at the next intersection    100.00 %
-1     25                              Road work      0.00 %
-2     30                     Beware of ice/snow      0.00 %
-3     23                          Slippery road      0.00 %
-4     18                        General caution      0.00 %`
+|index| label			        |     sign name	        					| probability |
+|:----:|:---------------------:|:---------------------------------------------:|:--------:|
+|0     |11|  Right-of-way at the next intersection|    100.00 %|
+|1     |25|                              Road work|      0.00 %|
+|2     |30|                     Beware of ice/snow|      0.00 %|
+|3     |23|                          Slippery road|      0.00 %|
+|4     |18|                        General caution|      0.00 %|
 
 
 
@@ -188,12 +191,13 @@ Model gave a perfect prediction of 100% for all the images except `Stop` sign im
 4. Turn right ahead
 ![](web_images/web4_32x32.jpg)
 
-`   label                              sign name probability
-0     33                       Turn right ahead    100.00 %
-1     24              Road narrows on the right      0.00 %
-2     11  Right-of-way at the next intersection      0.00 %
-3     39                              Keep left      0.00 %
-4     26                        Traffic signals      0.00 %`
+|index| label			        |     sign name	        					| probability |
+|:----:|:---------------------:|:---------------------------------------------:|:--------:|
+|0     |33|                       Turn right ahead |   100.00 %|
+|1     |24|              Road narrows on the right |     0.00 %|
+|2     |11|  Right-of-way at the next intersection |     0.00 %|
+|3     |39|                              Keep left |     0.00 %|
+|4     |26|                        Traffic signals |     0.00 %|
 
 
 ---
@@ -201,12 +205,13 @@ Model gave a perfect prediction of 100% for all the images except `Stop` sign im
 5. Yield
 ![](web_images/web5_32x32.jpg)
 
-`   label             sign name probability
-0     13                 Yield    100.00 %
-1      0  Speed limit (20km/h)      0.00 %
-2      1  Speed limit (30km/h)      0.00 %
-3      2  Speed limit (50km/h)      0.00 %
-4      3  Speed limit (60km/h)      0.00 %`
+|index| label			        |     sign name	        					| probability |
+|:----:|:---------------------:|:---------------------------------------------:|:--------:|
+|0     |13 |                Yield   | 100.00 %|
+|1      |0 | Speed limit (20km/h)   |   0.00 %|
+|2      |1 | Speed limit (30km/h)   |   0.00 %|
+|3      |2 | Speed limit (50km/h)   |   0.00 %|
+|4      |3 | Speed limit (60km/h)   |   0.00 %|
 
 
 ---
@@ -214,12 +219,13 @@ Model gave a perfect prediction of 100% for all the images except `Stop` sign im
 6. No passing
 ![](web_images/web6_32x32.jpg)
 
-`   label                     sign name probability
-0      9                    No passing    100.00 %
-1     17                      No entry      0.00 %
-2     35                    Ahead only      0.00 %
-3     40          Roundabout mandatory      0.00 %
-4     20  Dangerous curve to the right      0.00 %`
+|index| label			        |     sign name	        					| probability |
+|:----:|:---------------------:|:---------------------------------------------:|:--------:|
+|0      |9  |                  No passing|    100.00 %|
+|1     |17  |                    No entry|      0.00 %|
+|2     |35  |                  Ahead only|      0.00 %|
+|3     |40  |        Roundabout mandatory|      0.00 %|
+|4     |20  |Dangerous curve to the right|      0.00 %|
 
 
 ---
@@ -229,12 +235,13 @@ For the below image model fails miserably.
 7. Stop
 ![](web_images/web7_32x32.jpg)
 
-`   label        sign name probability
-0     26  Traffic signals     52.09 %
-1     25        Road work     47.89 %
-2     15      No vehicles      0.01 %
-3     22       Bumpy road      0.01 %
-4     18  General caution      0.00 %`
+|index| label			        |     sign name	        					| probability |
+|:----:|:---------------------:|:---------------------------------------------:|:--------:|
+|0     |26  |Traffic signals   |  52.09 %|
+|1     |25  |      Road work   |  47.89 %|
+|2     |15  |    No vehicles   |   0.01 %|
+|3     |22  |     Bumpy road   |   0.01 %|
+|4     |18  |General caution   |   0.00 %|
 
 
 ---
@@ -242,12 +249,13 @@ For the below image model fails miserably.
 8. Road work
 ![](web_images/web8_32x32.jpg)
 
-`   label                     sign name probability
-0     25                     Road work    100.00 %
-1     22                    Bumpy road      0.00 %
-2     26               Traffic signals      0.00 %
-3     20  Dangerous curve to the right      0.00 %
-4      0          Speed limit (20km/h)      0.00 %`
+|index| label			        |     sign name	        					| probability |
+|:----:|:---------------------:|:---------------------------------------------:|:--------:|
+|0     |25   |                  Road work |   100.00 %|
+|1     |22   |                 Bumpy road  |    0.00 %|
+|2     |26   |            Traffic signals  |    0.00 %|
+|3     |20 | Dangerous curve to the right  |    0.00 %|
+|4      |0 |         Speed limit (20km/h)   |   0.00 %|
 
 
 ---
